@@ -1,6 +1,8 @@
 # Star Wars Encyclopedia Index App
-Created this using the Star Wars API and ReactJS to display information from the first six star wars films, from character information to planets and star-ships, and more. 
+Star Wars Encyclopedia Index is a responsive web application made using React to fetch and display information on the first six Star Wars movies from the Star Wars API, the link to which is below. The project was deployed using Netlify, the link 
+for which you can find here: [Click Me!](https://johnnymacsf-starwars-encyclopedia.netlify.app/)
 
+Star Wars API: https://swapi.dev/api/
 
 # ----------------------------------
 Below this line is the auto created README when creating a react app. 
