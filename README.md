@@ -1,3 +1,11 @@
+# Star Wars Encyclopedia Index App
+Created this using the Star Wars API and ReactJS to display information from the first six star wars films, from character information to planets and star-ships, and more. 
+
+
+# ----------------------------------
+Below this line is the auto created README when creating a react app. 
+# ----------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

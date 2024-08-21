@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    box-sizing: border-box;
   }
+  
+  body {
+    font-family: "Karla", sans-serif;
+    background: #EFEFEF;
+  }
+  
+  .header-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background: linear-gradient(90deg, red 1.18%, blue 100%);
+    color: white;
+    padding: 30px;
+    margin: 0;
+    font-size: 4rem;
+  }
+
+  .rebel-logo {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px;
+    background-color: white; /* Ensure a matching background color */
+    mix-blend-mode: multiply; /* Blend the image with the background */
+  }
+
+  .empire-logo {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px;
+    background-color: white; /* Ensure a matching background color */
+    mix-blend-mode: multiply; /* Blend the image with the background */
+  }
+
+  .home-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .home-art-logo {
+    width: 80%; /* Adjust the width as a percentage of its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 600px; /* Set a maximum width to prevent it from getting too large */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure it’s treated as a block element */
+  }
+
+  h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  p{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+  }
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #AD54EF;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+button:hover {
+  background-color: green;
+}
+
+.information {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.information > * {
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  font-size: 8px;
+  padding: 1rem; /* Padding for the footer */
+  position: fixed; /* Fix the footer to the bottom */
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 -1px 5px rgba(0,0,0,0.1); /* Optional: shadow for better separation */
 }
