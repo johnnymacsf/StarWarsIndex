@@ -88,9 +88,9 @@ const Starships = () => {
             <div className='information'>
                 <h4 className='model'>Model: {starshipData.model}</h4>
                 <h4 className='manufacturer'>Manufacturer: {starshipData.manufacturer}</h4>
-                <h4 className='cost_in_credits'>Cost in Credits: {starshipData.cost_in_credits}</h4>
+                <h4 className='cost_in_credits'>Cost In Credits: {starshipData.cost_in_credits}</h4>
                 <h4 className='length'>Length: {starshipData.length} m</h4>
-                <h4 className='max_atmosphering_speed'>Max Atmosphering Speed: {starshipData.max_atmosphering_speed} km/h</h4>
+                <h4 className='max_atmosphering_speed'>Max Atmospheric Speed: {starshipData.max_atmosphering_speed} km/h</h4>
                 <h4 className='crew'>Crew: {starshipData.crew}</h4>
                 <h4 className='passengers'>Passengers: {starshipData.passengers}</h4>
                 <h4 className='cargo_capacity'>Cargo Capacity: {starshipData.cargo_capacity} metric tons</h4>
